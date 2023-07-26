@@ -1,0 +1,926 @@
+{
+  "name": "MoyerLiuThreadX",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "::CMSIS",
+        "files": [],
+        "folders": []
+      },
+      {
+        "name": "Application",
+        "files": [],
+        "folders": [
+          {
+            "name": "MDK-ARM",
+            "files": [
+              {
+                "path": "startup_stm32g031xx.s"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "User",
+            "files": [],
+            "folders": [
+              {
+                "name": "AZURE_RTOS",
+                "files": [],
+                "folders": [
+                  {
+                    "name": "App",
+                    "files": [
+                      {
+                        "path": "../AZURE_RTOS/App/app_azure_rtos.c"
+                      }
+                    ],
+                    "folders": []
+                  }
+                ]
+              },
+              {
+                "name": "Core",
+                "files": [
+                  {
+                    "path": "../Core/Src/adc.c"
+                  },
+                  {
+                    "path": "../Core/Src/app_threadx.c"
+                  },
+                  {
+                    "path": "../Core/Src/dma.c"
+                  },
+                  {
+                    "path": "../Core/Src/gpio.c"
+                  },
+                  {
+                    "path": "../Core/Src/main.c"
+                  },
+                  {
+                    "path": "../Core/Src/spi.c"
+                  },
+                  {
+                    "path": "../Core/Src/stm32g0xx_hal_msp.c"
+                  },
+                  {
+                    "path": "../Core/Src/stm32g0xx_hal_timebase_tim.c"
+                  },
+                  {
+                    "path": "../Core/Src/stm32g0xx_it.c"
+                  },
+                  {
+                    "path": "../Core/Src/tim.c"
+                  },
+                  {
+                    "path": "../Core/Src/tx_initialize_low_level.S"
+                  },
+                  {
+                    "path": "../Core/Src/usart.c"
+                  }
+                ],
+                "folders": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Drivers",
+        "files": [],
+        "folders": [
+          {
+            "name": "CMSIS",
+            "files": [
+              {
+                "path": "../Core/Src/system_stm32g0xx.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "FFT",
+            "files": [],
+            "folders": []
+          },
+          {
+            "name": "STM32G0xx_HAL_Driver",
+            "files": [
+              {
+                "path": "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.c"
+              },
+              {
+                "path": "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_adc.c"
+              },
+              {
+                "path": "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c"
+              },
+              {
+                "path": "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c"
+              },
+              {
+                "path": "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c"
+              },
+              {
+                "path": "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c"
+              },
+              {
+                "path": "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c"
+              },
+              {
+                "path": "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c"
+              },
+              {
+                "path": "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c"
+              },
+              {
+                "path": "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c"
+              },
+              {
+                "path": "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c"
+              },
+              {
+                "path": "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c"
+              },
+              {
+                "path": "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c"
+              },
+              {
+                "path": "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c"
+              },
+              {
+                "path": "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c"
+              },
+              {
+                "path": "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c"
+              }
+            ],
+            "folders": []
+          }
+        ]
+      },
+      {
+        "name": "Middlewares",
+        "files": [],
+        "folders": [
+          {
+            "name": "ThreadX",
+            "files": [],
+            "folders": [
+              {
+                "name": "RTOS",
+                "files": [],
+                "folders": [
+                  {
+                    "name": "ThreadX",
+                    "files": [],
+                    "folders": [
+                      {
+                        "name": "Core",
+                        "files": [
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_block_allocate.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_block_pool_cleanup.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_block_pool_create.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_block_pool_delete.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_block_pool_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_block_pool_initialize.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_block_pool_prioritize.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_block_release.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_byte_allocate.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_byte_pool_cleanup.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_byte_pool_create.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_byte_pool_delete.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_byte_pool_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_byte_pool_initialize.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_byte_pool_prioritize.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_byte_pool_search.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_byte_release.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_event_flags_cleanup.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_event_flags_create.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_event_flags_delete.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_event_flags_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_event_flags_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_event_flags_initialize.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_event_flags_set_notify.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_event_flags_set.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_initialize_high_level.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_initialize_kernel_enter.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_initialize_kernel_setup.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_mutex_cleanup.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_mutex_create.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_mutex_delete.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_mutex_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_mutex_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_mutex_initialize.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_mutex_prioritize.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_mutex_priority_change.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_mutex_put.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_queue_cleanup.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_queue_create.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_queue_delete.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_queue_flush.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_queue_front_send.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_queue_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_queue_initialize.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_queue_prioritize.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_queue_receive.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_queue_send_notify.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_queue_send.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_semaphore_ceiling_put.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_semaphore_cleanup.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_semaphore_create.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_semaphore_delete.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_semaphore_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_semaphore_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_semaphore_initialize.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_semaphore_prioritize.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_semaphore_put_notify.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_semaphore_put.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_create.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_delete.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_entry_exit_notify.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_identify.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_initialize.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_preemption_change.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_priority_change.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_relinquish.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_reset.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_resume.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_shell_entry.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_sleep.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_stack_analyze.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_stack_error_handler.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_stack_error_notify.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_suspend.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_system_preempt_check.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_system_resume.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_system_suspend.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_terminate.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_time_slice_change.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_time_slice.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_timeout.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_wait_abort.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_time_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_time_set.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_timer_activate.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_timer_change.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_timer_create.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_timer_deactivate.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_timer_delete.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_timer_expiration_process.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_timer_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_timer_initialize.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_timer_system_activate.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_timer_system_deactivate.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_timer_thread_entry.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_block_allocate.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_block_pool_create.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_block_pool_delete.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_block_pool_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_block_pool_prioritize.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_block_release.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_byte_allocate.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_byte_pool_create.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_byte_pool_delete.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_byte_pool_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_byte_pool_prioritize.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_byte_release.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_event_flags_create.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_event_flags_delete.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_event_flags_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_event_flags_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_event_flags_set_notify.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_event_flags_set.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_mutex_create.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_mutex_delete.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_mutex_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_mutex_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_mutex_prioritize.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_mutex_put.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_queue_create.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_queue_delete.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_queue_flush.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_queue_front_send.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_queue_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_queue_prioritize.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_queue_receive.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_queue_send_notify.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_queue_send.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_semaphore_ceiling_put.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_semaphore_create.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_semaphore_delete.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_semaphore_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_semaphore_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_semaphore_prioritize.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_semaphore_put_notify.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_semaphore_put.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_thread_create.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_thread_delete.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_thread_entry_exit_notify.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_thread_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_thread_preemption_change.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_thread_priority_change.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_thread_relinquish.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_thread_reset.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_thread_resume.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_thread_suspend.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_thread_terminate.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_thread_time_slice_change.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_thread_wait_abort.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_timer_activate.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_timer_change.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_timer_create.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_timer_deactivate.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_timer_delete.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/txe_timer_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/ports/cortex_m0/ac6/src/tx_thread_context_restore.S"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/ports/cortex_m0/ac6/src/tx_thread_context_save.S"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/ports/cortex_m0/ac6/src/tx_thread_interrupt_control.S"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/ports/cortex_m0/ac6/src/tx_thread_interrupt_disable.S"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/ports/cortex_m0/ac6/src/tx_thread_interrupt_restore.S"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/ports/cortex_m0/ac6/src/tx_thread_schedule.S"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/ports/cortex_m0/ac6/src/tx_thread_stack_build.S"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/ports/cortex_m0/ac6/src/tx_thread_system_return.S"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/ports/cortex_m0/ac6/src/tx_timer_interrupt.S"
+                          }
+                        ],
+                        "folders": []
+                      },
+                      {
+                        "name": "PerformanceInfo",
+                        "files": [
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_block_pool_performance_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_block_pool_performance_system_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_byte_pool_performance_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_byte_pool_performance_system_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_event_flags_performance_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_event_flags_performance_system_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_mutex_performance_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_mutex_performance_system_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_queue_performance_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_queue_performance_system_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_semaphore_performance_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_semaphore_performance_system_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_performance_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_thread_performance_system_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_timer_performance_info_get.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_timer_performance_system_info_get.c"
+                          }
+                        ],
+                        "folders": []
+                      },
+                      {
+                        "name": "TraceX support",
+                        "files": [
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_trace_buffer_full_notify.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_trace_disable.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_trace_enable.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_trace_event_filter.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_trace_event_unfilter.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_trace_initialize.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_trace_interrupt_control.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_trace_isr_enter_insert.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_trace_isr_exit_insert.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_trace_object_register.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_trace_object_unregister.c"
+                          },
+                          {
+                            "path": "../Middlewares/ST/threadx/common/src/tx_trace_user_event_insert.c"
+                          }
+                        ],
+                        "folders": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": "STM32G031G8Ux",
+  "packDir": ".pack/Keil/STM32G0xx_DFP.1.3.0",
+  "miscInfo": {
+    "uid": "2287fe2f949e762118c11df3c219df09"
+  },
+  "targets": {
+    "MoyerLiuThreadX": {
+      "excludeList": [],
+      "toolchain": "AC6",
+      "compileConfig": {
+        "cpuType": "Cortex-M0+",
+        "floatingPointHardware": "none",
+        "useCustomScatterFile": false,
+        "scatterFilePath": "<YOUR_SCATTER_FILE>.sct",
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x5000"
+              },
+              "isChecked": true,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x08000000",
+                "size": "0x10000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "STLink",
+      "uploadConfig": {
+        "bin": "",
+        "proType": "SWD",
+        "resetMode": "default",
+        "runAfterProgram": true,
+        "speed": 4000,
+        "address": "0x08000000",
+        "elFile": "None",
+        "optionBytes": ".eide/moyerliuthreadx.st.option.bytes.ini",
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        },
+        "STLink": {
+          "bin": "",
+          "proType": "SWD",
+          "resetMode": "default",
+          "runAfterProgram": true,
+          "speed": 4000,
+          "address": "0x8000000",
+          "elFile": "None",
+          "optionBytes": ".eide/moyerliuthreadx.st.option.bytes.ini",
+          "otherCmds": ""
+        },
+        "OpenOCD": {
+          "bin": "",
+          "target": "stm32f1x",
+          "interface": "stlink",
+          "baseAddr": "0x08000000"
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../Core/Inc",
+          "../Drivers/STM32G0xx_HAL_Driver/Inc",
+          "../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy",
+          "../Drivers/CMSIS/Device/ST/STM32G0xx/Include",
+          "../Drivers/CMSIS/Include",
+          "../AZURE_RTOS/App",
+          "../Middlewares/ST/threadx/common/inc",
+          "../Middlewares/ST/threadx/ports/cortex_m0/ac6/inc",
+          "../Middlewares/ST/ARM/DSP/Inc",
+          ".cmsis/include",
+          "RTE/_MoyerLiuThreadX",
+          ".eide/deps"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "USE_HAL_DRIVER",
+          "TX_INCLUDE_USER_DEFINE_FILE",
+          "ARM_MATH_CM0PLUS",
+          "STM32G031xx"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}
